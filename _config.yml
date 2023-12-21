@@ -1,17 +1,19 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+title: Train
+subtitle: with Adri
+email: trainwithadri@gmail.com
+description: Wanna try? Join Train With Adri and let's get to it!
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: Adriana Tirnacop
+gym_name: The Gym Group Southampton East
+street_address: Antelope Park
+line_2: Bursledon Road
+city: Southampton
+state: Hampshire
+post_code: SO19 8NE
+country: United Kingdom
+# phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
@@ -22,14 +24,14 @@ tiles-count: 6
 # Icons are not shown if value is empty
 # You need to restart jekyll for changes to have an effect
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  # GitHub:
+  # GitLab:
+  # Google-Plus:
+  Instagram: https://www.instagram.com/adriannaaxx/
+  # LinkedIn: https://
+  # Twitter:
+  Facebook: https://www.facebook.com/Adriana.Cameliaa
+  # Slack:
 
 # build settings
 markdown: kramdown
@@ -38,7 +40,13 @@ sass:
   style: compressed
 
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md
+  - TODO.md
+  - docker-compose.yml
+  - vendor
+  - justfile
+  - img_raw
+  - .liquidrc

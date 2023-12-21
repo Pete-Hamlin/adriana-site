@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+{% include head.html %}
+<body>
+    {% include header.html %} 
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+		<div class="content">
+			<span class="subheading">
+				<p class="post-date italic">{{ page.date | date: "%Y-%m-%d" }}</p>
+				<span class="post-info">
+					<p>Serves: {% if page.serves %}{{page.serves}}{% else %}1{% endif %}{% if page.prep_time %} Preparation time: {{ page.prep_time }}{% endif %}</p>
+				</span>
+			</span>
+			{% if page.image %}<span class="image main"><img src="{% link assets/images/{{ page.image }} %}" alt="" /></span>{% endif %}
+		</div>
+		<div>
+		{% if page.ingredients %}
+			<h2>Ingredients</h2>
+			<ul>
+			{% for ingredient in page.ingredients %}
+				<li>{{ ingredient }}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+		{% if page.optional_ingredients %}
+			<h2>Optional Extras</h2>
+			<ul>
+			{% for ingredient in page.optional_ingredients %}
+				<li>{{ ingredient }}</li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+		</div>
+		{{ content }}
+	</div>
+</section>
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

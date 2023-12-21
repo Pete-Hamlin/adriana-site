@@ -2,7 +2,9 @@
 <section id="contact">
 	<div class="inner">
 		<section>
-			<form action="https://formspree.io/{{ site.email }}" method="POST">
+			<h1 class="major">Get in Touch</h1>
+			<form action="https://api.web3forms.com/submit" method="POST">
+				<input type="hidden" name="access_key" value="b7a79cb9-5a09-4811-9746-d10b74ab8714">
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
@@ -14,6 +16,21 @@
 				<div class="field">
 					<label for="message">Message</label>
 					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<div class="field">
+					<fieldset>
+						<legend>What are your goals?</legend>
+						{% for field in site.data.form %}
+						<div class="field half">
+							<input type="checkbox" id="{{ field.id }}" name="{{ field.id }}">
+							<label for="{{ field.id }}">{{ field.label }}</label>
+						</div>
+						{% endfor %}
+						<div class="field half">
+							<input type="checkbox" id="other" name="other">
+							<label for="other">Other</label>
+						</div>
+					</fieldset>
 				</div>
 				<ul class="actions">
 					<li><input type="submit" value="Send Message" class="special" /></li>
@@ -29,6 +46,7 @@
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
+			{% if site.phone %}
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-phone"></span>
@@ -36,29 +54,45 @@
 					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
 				</div>
 			</section>
+			{% endif %}
+			{% if site.street_address %}
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
 					<h3>Address</h3>
 					<span>
-					{% if site.street_address %}
+					{% if site.gym_name %}
+					    {{ site.gym_name }}<br />
+					{% endif %}
 					    {{ site.street_address }}<br />
+					{% if site.line_2 %}
+					    {{ site.line_2 }}<br />
 					{% endif %}
 					{% if site.city %}
-					    {{ site.city }},
+					    {{ site.city }}<br />
 					{% endif %}
 					{% if site.state %}
-					    {{ site.state }} 
+					    {{ site.state }}<br />
 					{% endif %}
-					{% if site.zip_code %}
-					    {{ site.zip_code }}<br />
+					{% if site.post_code %}
+					    {{ site.post_code }}<br />
 					{% endif %}
 					{% if site.country %}
-					    {{ site.country }}
+					    {{ site.country }}<br />
 					{% endif %}
 					</span>
 				</div>
 			</section>
+			{% endif %}
+			{% for key_value in site.socials %}
+			<section>
+				<div class="contact-method">
+				<span class="icon alt fa-{{ key_value[0] | downcase }}"></span>
+				<h3>{{ key_value[0] | capitalize }}</h3>
+				<a href="{{ key_value[1] }}">{{ key_value[1] }}</a>
+				</div>
+			</section>
+			{% endfor %}
 		</section>
 	</div>
 </section>
@@ -66,7 +100,7 @@
 <!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
-			<ul class="icons">
+			{%- comment -%} <ul class="icons">
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
 						<li>
@@ -76,12 +110,11 @@
 						</li>
 					{% endif %}
 				{% endfor %}
-			</ul>
+			</ul> {%- endcomment -%}
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-
 			</ul>
 		</div>
 	</footer>

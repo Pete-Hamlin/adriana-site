@@ -27,9 +27,24 @@
 				width: 30%;
 
 				img {
-					border-radius: 0;
-					display: block;
-					width: 100%;
+						border-radius: 0;
+						display: block;
+						width: 100%;
+				}
+
+				> .recipe {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+				}
+				@include breakpoint(medium) {
+					> .recipe {
+						position: relative;
+						top: 0;
+						left: 0;
+						transform: translate(0, 0);
+					}
 				}
 
 				&:before {
@@ -57,6 +72,48 @@
 					margin: 0 auto;
 					max-width: 100%;
 					width: _size(inner);
+
+					> .subheading {
+						font-style: italic;
+						padding-top: 0;
+						border-top: 0;
+						font-size: medium;
+						display: grid;
+						grid-template-columns: repeat(2, 1fr);
+
+						> .recipe-prep {
+							text-align: right;
+						}
+					}
+					> .recipe-content {
+						display: grid;
+						width: 100%;
+						grid-template-columns: 2fr 2fr 3fr;
+						float: left;
+						
+						> div {
+							@include padding(1em, 1em);
+							font-size:large;
+							 
+							&:first-child {
+								@include padding(1em, 0.5em);
+							}
+						}
+
+					}
+
+					@include breakpoint(large) {
+						> .recipe-content {
+							grid-template-columns: 2fr 2fr 3fr;
+						}
+					}
+					
+					@include breakpoint(medium) {
+						> .recipe-content {
+								grid-template-columns: 1fr;
+						}
+					}
+
 				}
 			}
 

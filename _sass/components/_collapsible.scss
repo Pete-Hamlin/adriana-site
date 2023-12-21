@@ -1,0 +1,30 @@
+/* collapsible */
+
+    .collapsible-content {
+        padding-top: 2%;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+
+        .prices {
+            padding-left: 5%;
+        }
+
+        .price-note {
+            font-style: italic;
+            font-size: 0.8em;
+        }
+    }
+
+    .collapsible:after {
+        content: '\2B9F';
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\2B9D";
+        /* Unicode character for "minus" sign (-) */
+    }

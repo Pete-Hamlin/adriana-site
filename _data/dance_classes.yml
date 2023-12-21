@@ -1,0 +1,20 @@
+- name: Cuban Salsa (Beginners)
+  location: Elite Tiempo
+  day: Monday
+  time: "19:30"
+  url: https://www.elitetiempo.com/classes
+- name: Bachata (Improvers)
+  location: Elite Tiempo
+  day: Monday
+  time: "20:30"
+  url: https://www.elitetiempo.com/classes
+- name: Bachata (Beginners)
+  location: University of Southampton SalsaSoc
+  day: Wednesday
+  time: "19:30"
+  url: https://www.instagram.com/salsasoc/
+- name: Bachata (Improvers)
+  location: University of Southampton SalsaSoc
+  day: Wednesday
+  time: "20:30"
+  url: https://www.instagram.com/salsasoc/

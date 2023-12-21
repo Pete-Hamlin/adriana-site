@@ -1,11 +1,15 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Forty'
+landing-title: "Being strong is pretty cool."
 description: null
 image: null
 author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Welcome to my website! 
+
+I'm Adriana, a personal trainer passionate about helping people like you achieve their fitness goals and improve their lives. As someone who has experienced the transformative power of fitness first-hand, I'd love to now share my knowledge and expertise with others to empower them towards the best versions of themselves. 
+
+Whether you’re looking to lose weight, build muscle, boost your endurance, or simply feel better in your own skin, I am here to guide you every step of the way. With a focus on personalised training programs, practical nutrition guidance and detail-oriented coaching, I can help you turn your fitness goals into victories!

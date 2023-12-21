@@ -1,0 +1,14 @@
+- id: increase-general-fitness
+  label: Increase fitness
+- id: body-tone
+  label: Body tone
+- id: build-muscle
+  label: Build muscle
+- id: build-strength
+  label: Build strength
+- id: weight-loss
+  label: Weight loss
+- id: injury-recovery
+  label: Injury recovery
+- id: athletic-performance
+  label: Increase athletic performance
