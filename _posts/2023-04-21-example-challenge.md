@@ -2,7 +2,7 @@
 layout: challenge
 title: Example Challenge
 description: Here we go Again!
-image: pic02.jpg
+image: schedule.jpeg
 ---
 
 Here is some text.
