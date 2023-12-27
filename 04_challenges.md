@@ -14,7 +14,10 @@ show_tile: true
             <header class="major">
                 <h1>Challenges</h1>
             </header>
-            <p>Coming soon...</p>
+            <p>Being active doesn't have to be all hard work, and it doesn't have to take hours of your day either!<br /><br />
+            Here I’ll be posting some fun challenges to help you keep your training interesting & exciting. They will be pretty varied - ‘cause I don’t know what I would do without A LOT of variety in my workouts - so you may find some pretty easy & some may give you a good run for your money! I’ll keep them home-friendly & equipment-free so you can do them anywhere, anytime.<br /><br />
+            Show your competitive side and challenge your friends, or just prove to yourself what you're capable of. If you complete one of my challenges, I'd love to hear about it!
+            </p>
         </div>
     </section>
     <section id="two" class="spotlights">
