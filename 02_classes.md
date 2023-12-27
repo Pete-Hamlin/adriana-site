@@ -15,10 +15,15 @@ show_tile: true
             <header class="major">
                 <h1>Classes</h1>
             </header>
-            <p>Enjoy training, but prefer the energy of group workouts?
-            Love dancing, but find yourself unsure of your moves around others?</p>
-            <p>Check out my Fitness and Dance classes below! Whether you're seeking quick sweaty sessions, aiming to learn how to lift, or eager to get some dance steps up your sleeve, I've got you covered.</p>
-            <p>Ready to join the fun?</p>
+            <div class="split-header">
+                <p class="text-body">Enjoy training, but prefer the energy of group workouts? <br /><br />
+                Love dancing, but find yourself unsure of your moves around others? <br /><br />
+                Check out my Fitness and Dance classes below! Whether you're seeking quick sweaty sessions, aiming to learn how to lift, or eager to get some dance steps up your sleeve, I've got you covered. <br /><br />
+                Ready to join the fun?</p>
+                <div class="image">
+                    <img src="{% link assets/images/classes_header.jpeg %}" alt="" data-position="25% 25%" />
+                </div>
+            </div>
         </div>
     </section>
     <section id="two">
