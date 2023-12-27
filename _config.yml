@@ -3,7 +3,7 @@ title: Train
 subtitle: with Adri
 email: trainwithadri@gmail.com
 description: Wanna try? Join Train With Adri and let's get to it!
-baseurl: "/adriana-site" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Adriana Tirnacop
 gym_name: The Gym Group Southampton East
@@ -49,4 +49,4 @@ exclude:
   - vendor
   - justfile
   - img_raw
-  - .liquidrc
+  - .liquidrcq
