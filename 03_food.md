@@ -4,7 +4,7 @@ title: Foodspiration
 landing-title: "Foodspiration"
 nav-menu: true
 description: Fuel your body
-image: assets/images/food.jpeg
+image: assets/images/fruity_oats.jpeg
 author: null
 show_tile: true
 category: food
