@@ -22,7 +22,15 @@
 		<header class="major">
 			<h1>{{ page.title }}</h1>
 		</header>
-		{% if page.image %}<span class="image main"><img src="{% link assets/images/{{ page.image }} %}" alt="" /></span>{% endif %}
+		{% if page.image %}
+		<div class="box alt">
+			<div class="row 50% uniform">
+				<div class="3u"></div>
+				<div class="6u"><span class="image fit"><img src="{% link assets/images/{{ page.image }} %}" alt="" /></span></div>
+				<div class="3u$"></div>
+			</div>
+		</div>
+		{% endif %}
 		{{ content }}
 	</div>
 </section>

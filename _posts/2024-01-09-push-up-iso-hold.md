@@ -59,6 +59,7 @@ Key checks here:
 ## END OF CHALLENGE
 The challenge ends when any other part of your body other than your hands and toes *(and knees, if modifying)* touches the ground.
 
+<br />
 And there you have it! The challenge is **ON**. Show me what you've got!
 
 Good luck!
