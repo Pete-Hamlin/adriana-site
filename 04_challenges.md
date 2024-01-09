@@ -25,7 +25,7 @@ show_tile: true
             {% if post.title != 404 and post.layout == "challenge" %}
                 <section>
                     {% if post.image %}
-                    <div class="image"><img src="{% link assets/images/{{ post.image }} %}" alt="" /></div>
+                    <a href="{{ post.url }}" class="image"><div class="image"><img src="{% link assets/images/{{ post.image }} %}" alt="" /></div></a>
                     {% endif %}
                     <div class="content">
                     <div class="inner">
@@ -34,7 +34,7 @@ show_tile: true
                         </header>
                         <span class="subheading">
                             {% if post.date %}
-                            <p class="post-date italic">{{ post.date }}</p>
+                            <p class="post-date italic">{{ post.date | date: "%Y-%m-%d" }}</p>
                             {% endif %}
                             <span class="post-info">
                                 {% if post.workout_length %}
@@ -42,7 +42,7 @@ show_tile: true
                                 {% endif %}
                             </span>
                         </span>
-                        <p>{{ post.content | strip_html | truncate: 200 }}</p>
+                        <p>{{ post.description }}</p>
                     </div>
                     </div>
                 </section>
