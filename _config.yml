@@ -1,7 +1,7 @@
 # site settings
 title: Train
 subtitle: with Adri
-email: trainwithadri@gmail.com
+email: train@trainwithadri.com
 description: Wanna try? Join Train With Adri and let's get to it!
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
