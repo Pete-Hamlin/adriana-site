@@ -8,8 +8,16 @@ author: null
 show_tile: false
 ---
 
-Welcome to my website! 
+Hey, welcome!
 
-I'm Adriana, a personal trainer passionate about helping people like you achieve their fitness goals and improve their lives. As someone who has experienced the transformative power of fitness first-hand, I'd love to now share my knowledge and expertise with others to empower them towards the best versions of themselves. 
+I’m Adri, fitness enthusiast turned PT. &#128522;
 
-Whether you’re looking to lose weight, build muscle, boost your endurance, or simply feel better in your own skin, I am here to guide you every step of the way. With a focus on personalised training programs, practical nutrition guidance and detail-oriented coaching, I can help you turn your fitness goals into victories!
+Quick summary of me: obssessed with movement & trying to pass it on to as many peeps as possible.
+
+Why? 'Cause we, peeps, derive countless benefits from movement. I have been training myself and others for over a decade and have experienced (as well as witnessed) the extraordinary power of training in one's life.
+
+Training has allowed me to not only do other things I loved better, but also discover & appreciate myself and my abilities. However! The journey to that was full of mistakes & obstacles, which taught me the do's and don't's of fitness.
+
+With this knowledge, my mission now is to help other peeps achieve that point of self-fulfilment in their training while avoiding the hardship that can delay their results (like it did for me).
+
+If you have a fitness goal you've been dreaming of for a while, just know you don't have to get there alone - contact me & let's make it happen together.

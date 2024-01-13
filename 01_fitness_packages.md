@@ -3,7 +3,7 @@ layout: page
 title: Fitness Packages
 landing-title: "Fitness Packages"
 nav-menu: true
-description: Crush that training sesh
+description: Have fun training
 image: assets/images/fitness_packages_2.jpg
 author: null
 show_tile: true
@@ -18,10 +18,16 @@ show_tile: true
 		<header class="major">
 			<h1>Personalised Fitness Packages</h1>
 		</header>
-		<p>Embarking on a fitness journey is a transformative experience and I'm here to guide you every step of the way. But! I am aware that not everybody is able to afford a PT as it can be quite a costly service.</p>
-        <p>Whether you are just starting out on your path to becoming fitter, or are already a fitness powerhouse currently looking to bring extra focus to your training, I offer a range of personalised training packages to cater to your specific requirements like your individual goals, support needs and budget constraints. </p>
-        <p>Your fitness journey is unique and your training should definitely reflect that!</p> 
-		<p>Let's explore the different options available to ensure you get the right support from me:</p>
+		<p>Whether you are looking to...</p>
+		<ul>
+			<li>tone up</li>
+			<li>build strength</li>
+			<li>increase fitness</li>
+			<li>train post-injury</li>
+			<li>improve performance</li>
+		</ul>
+		<p>... I offer a range of bespoke training packages to cater to your specific requirements like your unique goals & needs.</p>
+		<p>Take a look at how we can train together:</p>
 	</div>
 </section>
 
