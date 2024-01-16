@@ -29,7 +29,8 @@ category: food
                     <div class="content">
                         <div class="inner">
                             <header class="minor">
-                                <h1>{{ recipe.title }}</h1>
+                                <h1 class="recipe">{{ recipe.title }}</h1>
+                                <h4>{{ recipe.category }}</h4>
                             </header>
                             <span class="subheading">
                                 <p class="recipe-serves italic">Serves: {% if recipe.serves %}{{recipe.serves}}{% else %}1{% endif %}</p>

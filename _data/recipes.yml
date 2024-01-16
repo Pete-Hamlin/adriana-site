@@ -1,4 +1,5 @@
 - title: Burrito Bowl feat. Leftovers
+  category: Lunch/Dinner
   prep_time: 5 mins
   serves: 1
   image: burrito_bowl_2.jpeg
@@ -18,6 +19,7 @@
   description: |
     A super versatile dish, ideal for any time of day! Packed with the perfect balance of protein, carbs, and fiber, it's a nutritious option for both lunch and dinner. Whether you're gearing up for a workout or replenishing post-exercise, this hassle-free delight requires no cooking—just toss everything in a bowl and enjoy!
 - title: Fruity Oats
+  category: Breakfast
   prep_time: 5 mins
   image: fruity_oats.jpeg
   ingredients:
