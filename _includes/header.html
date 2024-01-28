@@ -5,6 +5,7 @@
 <header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
 	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a>
 	<nav>
+		{% comment %} <a href="mailto:{{ site.email }}/" class="logo email"><strong>{{ site.email }}</strong></a> {% endcomment %}
 		<a href="#menu">Menu</a>
 	</nav>
 </header>
