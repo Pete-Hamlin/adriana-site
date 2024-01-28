@@ -61,7 +61,7 @@ category: food
                                 {% endif %}
                                 {% if recipe.description %}
                                 <div>
-                                    <p>{{ recipe.description }}</p>
+                                    <span>{{ recipe.description | markdownify }}</span>
                                 </div>
                                 {% endif %}
                             </span>

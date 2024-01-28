@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Fitness Packages
-landing-title: "Fitness Packages"
 nav-menu: true
 description: Have fun training
 image: assets/images/fitness_packages_2.jpg
