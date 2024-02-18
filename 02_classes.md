@@ -35,6 +35,8 @@ show_tile: true
                         <tr>
                             <th>Class</th>
                             <th>Location</th>
+                            <th>Day</th>
+                            <th>Time</th>
                             <th>Details</th>
                         </tr>
                     </thead>
@@ -43,6 +45,8 @@ show_tile: true
                         <tr>
                             <td>{{ class.name }}</td>
                             <td>{{ class.location }}</td>
+                            <td>{{ class.day }}</td>
+                            <td>{{ class.time }}</td>
                             <td><a href="{{ class.url }}">See here</a></td>
                         </tr>
                         {% endfor %}
