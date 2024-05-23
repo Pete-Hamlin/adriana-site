@@ -1,29 +1,90 @@
-Original Forty Readme:
+## Updating Sections
 
-# Forty - Jekyll Theme
+Here are a few how-tos for some of the most likely areas you're going to want to add to/change :)
 
-A Jekyll version of the "Forty" theme by [HTML5 UP](https://html5up.net/).  
+### General
 
-![Forty Theme](assets/images/forty.jpg "Forty Theme")
+- All images are stored in `assets/images`
 
-# How to Use
+### Challenges
 
-For those unfamiliar with how Jekyll works, check out [jekyllrb.com](https://jekyllrb.com/) for all the details, 
-or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
-and [creating pages](https://jekyllrb.com/docs/pages/).
+- Each challenge has its own page, stored in [_posts](./_posts/)
+- A challenge file must have the `.md` extension, and begin with the following details:
+```yaml
+---
+layout: challenge
+title: $TITLE
+description: "$DESCRIPTION"
+image: $PICTURE.jpg
+---
+```
+- After that fill the file with whatever contents you like (probably easiest to copy an existing challenge and go from there).
+- The post main contents obeys **markdown** formatting
 
-Simply fork this repository and start editing the `_config.yml` file!
+### Recipes
 
-> NOTE: GitHub Actions is required to deploy to GitHub Pages because GitHub [refuses to update their version of Jekyll](https://github.com/github/pages-gem/issues/651).
+- Recipes are stored in `_data/recipes.yaml`:
+- They must have the following format:
+```yaml
+- title: $TITLE
+  category: $CATEGOry
+  prep_time: X mins
+  serves: 1
+  image: $IMAGE.jpeg
+  ingredients:
+      - Item 1
+      - Item 2
+      - ...
+  optional_ingredients:
+      - Item 1
+      - Item 2
+      - ...
+  description: |
+    Main contents...
+```
+- Description obeys **markdown** formatting
 
-# Added Features
+### Fitness Packages
 
-* **[Formspree.io](https://formspree.io/) contact form integration** - just add your email to the `_config.yml` and it works!
-* Use `_config.yml` to **set whether the homepage tiles should pull pages or posts**, as well as how many to display.
-* Add your **social profiles** easily in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer!
-* Set **featured images** in front matter.
+- Packages are stored in `_data/packages.yaml`:
+- They must have the following format:
+```yaml
+- title: $TITLE
+  image: $IMAGE.jpg
+  content: |
+    Long description...
+  details: 
+      - Item 1
+      - Item 2
+      - ...
+  prices:
+      - Item 1
+      - Item 2
+      - ...
+```
+- Description obeys **plain text** formatting
+
+### Classes
+
+
+- Dance classes are stored in `_data/dance_classes.yaml`:
+- Fitness classes are stored in `_data/fitness_classes.yaml`:
+- They must have the following format:
+```yaml
+- name: $NAME
+  location: $LOCATION
+  day: Monday-Sunday
+  time: "19:30"
+  url: https://$LINK
+```
+
+---
 
 # Credits
+
+## Forty Theme
+
+Based on the [Forty Jekyll Theme](https://github.com/andrewbanchich/forty-jekyll-theme).
 
 Original README from HTML5 UP:
 
