@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: "Being strong is pretty cool."
+landing-title: "Feeling strong is pretty cool."
 description: null
 image: null
 author: null
