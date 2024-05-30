@@ -1,0 +1,30 @@
+- title: "Workshop 1: Basic Arms and Styling"
+  price: 12
+  description: Some fancy schmancy description
+  link:  https://book.stripe.com/14k6saeM60eA5pe8ww
+  date: "Saturday 22nd June 2024 1-2:30PM"
+  location: BOH Studios, Bournemouth, BH2 5LR
+  details:
+    - Understand how to use your body to embody the music effectively.
+    - Make your basic movements elegant, energetic and full of character.
+    - Enhance your solo and partner dancing.
+    - Express yourself better and take your musicality to the next level.
+  image: workshop_1.jpeg
+- title: "Workshop 2: Sensual Body Movement"
+  price: 12
+  description: Some fancy schmancy description
+  link: https://book.stripe.com/dR617QeM67H25pebIJ
+  date: "Saturday 6th July 2024 1-2:30PM"
+  location: BOH Studios, Bournemouth, BH2 5LR
+  details:
+    - Dive deep into sensual technique and the flow of bachata sensual.
+    - Master isolations, waves, rolls, and infinities.
+    - Elevate your solo dancing and partnerwork.
+  image: workshop_2.jpeg
+- title: "Workshops 1 & 2"
+  price: 20
+  description: Some fancy schmancy description
+  image: workshops.jpg
+  link:  https://book.stripe.com/14k2bUeM63qM9FuaEG
+  details:
+    - Improve all aspects of your bachata dancing from basic, to arm styling, to body movement technique at a discounted rate per workshop.
