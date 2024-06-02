@@ -1,64 +1,47 @@
-- title: Personal Training
-  image: fitness_packages_1.jpg
+- title: 1-1 Training
+  image: hybrid_packages.jpg
   content: |
-    Suitable to anyone whose goal is general fitness. Leave the thinking with me, just turn up and give the best you’ve got!
+    Leave the thinking with me, just turn up and give the best you’ve got!
   details: 
-    - Particularly good for beginners who don’t know where to start with their training.
+    - Good for anyone from complete beginner to advanced.
     - Learn exercise techniques that you can use to train on your own in future.
   prices:
-    - 1 session = £40/h
-    - 5 pack = £150 (saving £50)
-    - 10 pack = £280 (saving £120)
+    - 1 session = £40
+    - 5 pack = £150 
+    - 10 pack = £280 
 
-- title: 2-1 Training
-  image: 2_1_training_2.jpg
+
+- title: 1-1 Coaching & Nutrition
+  image: fitness_packages_1.jpg 
   content: |
-    Perfect for you if you’d really benefit from PT, but can’t quite afford the costs on your own.
+    A complete approach to your fitness that gets you more results, faster.
   details:
-    - Cost-effective personalised guidance + the joy of sharing the experience with someone else.
-    - Supportive, motivating, and fun group dynamics, with a sprinkle of that extra bit of accountability from your workout bud!
-  price_note: These costs are to be split between the two people participating.
+    - Guided & supervised in-person training designed to your unique needs & goals.
+    - Customised workouts uploaded to training app, nutrition support & regular check-ins via video calls &/ form.
+    - Best for training goals like muscle tone or gain, weight loss, enhanced performance.
   prices:
-    - 1 session = £60/h
-    - 5 pack = £240 (saving £60)
-    - 10 pack = £450 (saving £150)
+    - 1 session/week = £175/month
+    - 2 sessions/week = £250/month
+    - 3 sessions/week = £350/month
+
 
 - title: Remote Coaching
   image: remote_sessions.jpg
   content: |
-    No need to be in the same location: I can train you wherever you are!
+    No need to be in the same location - we'll manage your exercise & nutrition wherever you are!
   details:
-    - Workout plan tailored according to your desired results.
-    - Includes instructional videos and regular accountability check-ins.
+    - Training plan tailored to your goals (includes instructional demo videos).
+    - Regular check-ins via video calls &/ form.
+    - Nutrition support on request.
   prices:
-    - "General fitness: £100 / month (training plan + basic nutritional guidance + monthly accountability calls + round the clock message support)."
-    - "Goal-specific: starting at £150 - includes all of the above as baseline, but adapting in accordance to the level of support required."
-
-
-- title: Goal-Oriented Progressive Plan + 1-1 PT Package 
-  image: goal_oriented.jpeg
-  content: |
-    Looking for specific results? This package is for you!
-  details:
-    - Fitness plan designed to your unique needs and goals.
-    - Best for progressive training goals like muscle tone or gain, weight loss, improved physical performance.
-    - Customised workouts, nutrition guidance, and regular accountability check-ins.
-  prices:
-    - FREE initial consultation
-    - Starter pack (1 session/week) = £175/month
-    - Plus pack (2 sessions/week) = £250/month
-    - Ultimate Results pack (3 sessions/week) = £350/month
+    - "Training only: from £75/month"
+    - "Training & Nutrition: from £100/month"
     
 
-- title: Hybrid Packages
-  image: hybrid_packages.jpg
-  content: "The best of both worlds: a combination of in-person and remote training sessions."
+- title: Hybrid Coaching
+  image: lunge.JPEG
+  content: "The best of both worlds: a combination of in-person & remote training."
   details:
-    - Flexibility to train in the gym while benefitting from remote support and resources.
-    - Suitable for those looking for a balance between face-to-face interaction and convenience.
-  enquiry: true
-
-- title: Event Preparation
-  image: event_prep.jpg
-  content: If you have a specific event, like a marathon, wedding, or competition in mind, I offer tailored packages to help you prepare effectively.
+    - Flexibility to train in the gym while benefitting from remote support & resources.
+    - Suitable for those looking for a balance between face-to-face interaction & convenience.
   enquiry: true
