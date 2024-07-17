@@ -34,9 +34,8 @@
     - Regular check-ins via video calls &/ form.
     - Nutrition support on request.
   prices:
-    - "Training only: £100/month"
     - "Training & Nutrition: £150/month"
-    
+     - "Training only: £100/month"
 
 - title: Hybrid Coaching
   image: lunge.JPEG
