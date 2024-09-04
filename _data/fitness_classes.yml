@@ -1,25 +1,10 @@
-- name: Upper Body Blast
-  location: The Gym Group Southampton East
+- name: X-Fit 
+  location: JD Gyms Southampton Bitterne
   day: Tuesday
-  time: "18:15"
-  url: https://www.thegymgroup.com/classes/165694d8-8bc4-41df-9924-cc81c3236a51/
-- name: Core Strength
-  location: The Gym Group Southampton East
-  day: Tuesday
+  time: "06:15"
+  url: https://www.jdgyms.co.uk/gym/southampton-bitterne/
+- name: Body Tone
+  location: JD Gyms Southampton Bitterne
+  day: Thursday
   time: "19:00"
-  url: https://www.thegymgroup.com/classes/165694d8-8bc4-41df-9924-cc81c3236a51/
-- name: Weights For Women
-  location: The Gym Group Southampton East
-  day: Wednesday
-  time: "09:15"
-  url: https://www.thegymgroup.com/classes/165694d8-8bc4-41df-9924-cc81c3236a51/
-- name: Weightlifting Workshop
-  day: Wednesday
-  time: "10:00"
-  location: The Gym Group Southampton East
-  url: https://www.thegymgroup.com/classes/165694d8-8bc4-41df-9924-cc81c3236a51/
-- name: HIIT
-  location: The Gym Group Southampton East
-  day: Friday
-  time: "17:15"
-  url: https://www.thegymgroup.com/classes/165694d8-8bc4-41df-9924-cc81c3236a51/
+  url: https://www.jdgyms.co.uk/gym/southampton-bitterne/
