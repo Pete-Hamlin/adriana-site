@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fitness Packages
+title: Coaching Services
 nav-menu: true
 description: Have fun training
 image: assets/images/fitness_packages_2.jpg
