@@ -1,10 +1,30 @@
 - name: X-Fit 
   location: JD Gyms Southampton Bitterne
   day: Tuesday
-  time: "06:15"
+  time: "06:30"
+  url: https://www.jdgyms.co.uk/gym/southampton-bitterne/
+  - name: HIIT 
+  location: JD Gyms Southampton Bitterne
+  day: Tuesday
+  time: "09:00"
   url: https://www.jdgyms.co.uk/gym/southampton-bitterne/
 - name: Body Tone
   location: JD Gyms Southampton Bitterne
   day: Thursday
-  time: "19:00"
+  time: "18:45"
   url: https://www.jdgyms.co.uk/gym/southampton-bitterne/
+- name: JD Burn
+  location: JD Gyms Southampton Bitterne
+  day: Friday
+  time: "13:10"
+  url: https://www.jdgyms.co.uk/gym/southampton-bitterne/
+  - name: Hybrid Strength 
+  location: Hybrid Fitness West End
+  day: Wednesday
+  time: "06:10 and 07:00" 
+  url: https://www.hybridfit.co.uk/book-online
+  - name: Hybrid Strength 
+  location: Hybrid Fitness West End
+  day: Thursday
+  time: "06:10" 
+  url: https://www.hybridfit.co.uk/book-online
