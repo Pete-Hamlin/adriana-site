@@ -2,11 +2,11 @@
 layout: page
 title: Classes
 landing-title: "Classes"
-nav-menu: true
+nav-menu: false
 description: Bring your friends too
 image: assets/images/classes.jpeg
 author: null
-show_tile: true
+show_tile: false
 ---
 
 <div id="main">
