@@ -20,26 +20,24 @@
     - Customised workouts uploaded to training app, nutrition support & regular check-ins via video calls &/ form.
     - Best for training goals like muscle tone or gain, weight loss, enhanced performance.
   prices:
-    - 1 session/week = £175/month
-    - 2 sessions/week = £250/month
-    - 3 sessions/week = £350/month
+    - 1 session/week = £185/month
+    - 2 sessions/week = £285/month
 
 
-- title: Remote Coaching
+- title: Online Coaching
   image: remote_sessions.jpg
   content: |
     No need to be in the same location - we'll manage your exercise & nutrition wherever you are!
   details:
     - Training plan tailored to your goals (includes instructional demo videos).
+    - Nutrition guidance & support.
     - Regular check-ins via video calls &/ form.
-    - Nutrition support on request.
   prices:
-    - "Training & Nutrition: £150/month"
-    - "Training only: £100/month"
+    - "Online coaching = £100/month"
 
 - title: Hybrid Coaching
   image: lunge.JPEG
-  content: "The best of both worlds: a combination of in-person & remote training."
+  content: "The best of both worlds: a combination of in-person & online coaching."
   details:
     - Flexibility to train in the gym while benefitting from remote support & resources.
     - Suitable for those looking for a balance between face-to-face interaction & convenience.
